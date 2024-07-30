@@ -14,19 +14,24 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 .game-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 60vh;
-  background-color: #d3c3c3; /* Solid background color */
+  
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(204, 39, 39, 0.1);
   position: relative;
-  width: 90%; /* Adjust width as needed */
+  width: 90%;
   max-width: 800px;
+  background-image: url("C:\Users\Bharath\Downloads\piee.jpg"); /* Add the background image here */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
 }
 
 .player-names {
@@ -36,6 +41,7 @@ body {
   padding: 0 20px;
   box-sizing: border-box;
   margin-bottom: 10px;
+  
 }
 
 .player {
@@ -44,16 +50,16 @@ body {
 }
 
 .player1 {
-  color: #121518;
+  color: rgb(13, 13, 13);
 }
 
 .player2 {
-  color: #190804;
+  color: rgb(6, 6, 6);
 }
 
 canvas {
-  border: 2px solid #000;
-  background-color: #dbd8d8;
+  border: 2px solid #0d0d0d;
+  background-color:transparent;
   position: relative;
   width: 100%;
   max-width: 800px;
